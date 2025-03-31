@@ -1,0 +1,28 @@
+
+.dashboard-container{
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+svg:not(:root) { overflow: visible; }
+
+.glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: none !important;
+  
+  box-shadow:
+    /* Нижний и правый эффект глубины */
+    inset -0.75px -0.5px rgba(255, 255, 255, 0.1),
+    /* Верхний и левый эффект глубины */
+    inset +0.75px +0.5px rgba(255, 255, 255, 0.025),
+    /* Эффект тени */
+    0px 0px 12px rgba(0, 255, 200, 0.253),
+    /* Короткий подповерхностный эффект */
+    inset 0px 0px 10px 5px rgba(255, 255, 255, 0.025),
+    /* Длинный подповерхностный эффект */
+    inset 0px 0px 40px 5px rgba(255, 255, 255, 0.025);
+  
+    
+}
