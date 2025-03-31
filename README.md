@@ -1,9 +1,8 @@
-# Getting Started with Create React App
+# Сайт для сервера HistoryCube
+https://historycube2.firebaseapp.com/
 
-```shell
-cd web
-npm i
-npm run start
+## Элементы сайта, которые можно посмотреть
 
-```
+[Главная](https://historycube2.firebaseapp.com/)
 
+[Профиль](https://historycube2.firebaseapp.com/dashboard/profile/)
